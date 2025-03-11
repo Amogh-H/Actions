@@ -17,4 +17,4 @@ jobs:
           python-version: "3.9"
 
       - name: Run Python Script
-        run: python-script.py
+        run: python python-script.py  # Corrected command
